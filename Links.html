@@ -6,13 +6,18 @@
     <title>Document</title>
 </head>
 <body>
+    <div>
     <h1>Linklerle Çalışmak</h1>
+    <hr>
+    <a href="https://htmlreference.io/"> HTML Referans </a>
+    <!--<a href="https://99lime.com/_bak/topics/you-only-need-10-tags/"> TOP 10 Tags for HTML</a>-->
     <p>
         Bir HTML dosyası içerisinde herhangi bir sayfaya, sayfa içine, bir websitesine, e-mail, telefon adreslerine ya da dosya <br>
          yolu belirtilen herhangi bir dosyaya (resim, video, zip vb.) erişmek için kullanılan HTML etiketidir.<br> 
          Genel yapısı < a>  < /a> şeklindedir.</p>
-     <h1>HTML sayfaları içinde kullanımı:</h1>
-     <h2>Sayfalar arası kullanımı:</h2>
+         <h2>HTML sayfaları içinde kullanımı:</h2>
+     <h3>Sayfalar arası kullanımı:</h3>
+     <hr>
      <p>HTML sayfalar arası geçiş yapmak için linklerden şu şekilde faydalanırız.<br>
         Şu an üzerinde çalıştığımız klasörün içerisinde bir linksayfasi.html adında dosya oluşturduk ve içerisine bir şeyler yazdık.<br>
         Şimdi HTML'de sayfalar arası linkleme ile yeni oluşturduğumuz sayfaya gitmek için link oluşturacağız:
@@ -22,7 +27,8 @@
         <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/sayfalar-arasi-link.gif" width="700" height="300" title="linksayfasi" />
         </p>    
         <br>
-        <h2>Sayfa içerisinde kullanımı:</h2>
+        <h3>Sayfa içerisinde kullanımı:</h3>
+        <hr>
         <p>Sayfa içerisinde herhangi bir başlığa ya da bölüme gitmek için linkler kullanılabilir.<br>
            Aynı sayfada işlem yapacağımız için birden fazla satır ekleyeceğim ve en aşağıya scroll ile <br>
            kaydırmak yerine link yardımı ile gideceğim. Bunun için de gidilecek bölüm için a tagine name özelliği verilmelidir:</p>
@@ -48,19 +54,26 @@
             -------------------------------    
         </pre>
         <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/sayfaici-link.gif" width="700" height="300" title="linksayfasi" />
-        <h2>Website yönlendirmesinde kullanımı:</h2>
+        <h3>Website yönlendirmesinde kullanımı:</h3>
+        <hr>
         <p>
           a etiketinde href özelliğine verilen herhangi bir websitesi adresine kolayca gidilebilir.<br>
         Burada target özelliğini göreceğiz. Bu özellik, gitmek istediğimiz bağlantının geçerli <br>
-        pencerede mi yoksa yeni bir pencerede mi açılması için kullanılır. _self özelliği geçerli<br>
-        pencerede açılması içindir. Varsayılan olarak böyledir. _blank özelliği ise yeni bir pencerede<br>
+        pencerede mi yoksa yeni bir pencerede mi açılması için kullanılır.<strong><em>_self</em></strong> özelliği geçerli<br>
+        pencerede açılması içindir. Varsayılan olarak böyledir. <span style="color: red">_blank</span> özelliği ise yeni bir pencerede<br>
         açılması içindir. Github adresimi deneyelim: <a href="https://www.github.com/ugurarican" target-"_blank"> Github adresim</a>
         </p>
+        <!-- strong  elementi bold olarak gösterir.
+             span elementi şeffaf bir kutunun içine alıyor.-->
+        <!-- div: Belli yapıları bir araya getirmek için kullanılır.
+             span: Belirli bir yerde özellik vermek ve başka özellikleri değiştirmemek için kullanılır.-->
         
         <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/linklerle-calismak/figures/website-link.gif" width="700" height="300" title="linksayfasi" />
-        <h2>Mail ve telefon yönlendirmesinde kullanımı:</h2>
+        <h3>Mail ve telefon yönlendirmesinde kullanımı:</h3>
+        <hr>
         <p>a etiketinin href özelliğine verilen mailto: ve tel: özellikleri sayesinde direkt olarak herhangi bir e-mail adresine posta gönderilebilir <br>
            ya da geçerli bir telefon numarası aranabilir. Email adresime ve rastgele bir numaraya gidelim. <br><br>
            <a href="mailto:ugur_842@hotmail.com.tr">Bana mail atınız.</a>
+        </div>
     </body>
 </html>
